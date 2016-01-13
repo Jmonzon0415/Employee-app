@@ -1,0 +1,8 @@
+<h1>List of all Employees</h1>
+
+<% @all_emp.each do |employee|
+  <h3><%= @all_emp.first_name %></h3>
+  <h3><%= @all_emp.last_name %></h3>
+  <h3><%= @all_emp.email %><h3>
+<h3><%= @all_emp.salary %></h3>
+<% end %>
